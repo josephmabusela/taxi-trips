@@ -2,7 +2,7 @@ module.exports = function TaxiTrips (pool) {
 	
     async function totalTripCount() {
         let trips = await pool.query('select * from trip');
-        return trips 
+        return trips.rows 
     }
 
     async function findAllRegions () {
