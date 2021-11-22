@@ -30,47 +30,47 @@ insert into taxi(registration, region_id) values('GP 1111', 3);
 insert into taxi(registration, region_id) values('GP 2222', 3);
 insert into taxi(registration, region_id) values('GP 3333', 3);
 
--- ND 1111 taxi trips
-insert into trips(route_id, taxi_registration) values (1, 1);
-insert into trips(route_id, taxi_registration) values (2, 2);
-insert into trips(route_id, taxi_registration) values (3, 3);
+-- ND 1111 taxi trip
+insert into trip(route_id, taxi_registration) values (1, 1);
+insert into trip(route_id, taxi_registration) values (2, 2);
+insert into trip(route_id, taxi_registration) values (3, 3);
 
 -- ND 2222 TAXI TRIP
-insert into trips(route_id, taxi_registration) values (3, 3);
-insert into trips(route_id, taxi_registration) values (2, 2);
-insert into trips(route_id, taxi_registration) values (1, 1);
+insert into trip(route_id, taxi_registration) values (3, 3);
+insert into trip(route_id, taxi_registration) values (2, 2);
+insert into trip(route_id, taxi_registration) values (1, 1);
 
 -- ND 3333 TAXI TRIP
-insert into trips(route_id, taxi_registration) values (2, 2);
-insert into trips(route_id, taxi_registration) values (1, 1);
-insert into trips(route_id, taxi_registration) values (3, 3);
+insert into trip(route_id, taxi_registration) values (2, 2);
+insert into trip(route_id, taxi_registration) values (1, 1);
+insert into trip(route_id, taxi_registration) values (3, 3);
 
 -- CA 1111 TAXI TRIP
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
 
 -- CA 2222 TAXI TRIP
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
 
 -- CA 3333 TAXI TRIP
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
 
 -- GP 1111 TAXI TRIP
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
 
 -- GP 2222 TAXI TRIP
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
 
 -- GP 3333 TAXI TRIP
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
-insert into trips(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();
+insert into trip(route_id, taxi_registration) values ();

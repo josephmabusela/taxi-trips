@@ -3,7 +3,7 @@ let TaxiTrips = require("../taxi-trips");
 const pg = require("pg");
 const Pool = pg.Pool;
 
-const connectionString = process.env.DATABASE_URL || 'postgresql://localhost:5432/taxi_trips';
+const connectionString = process.env.DATABASE_URL || 'postgresql://driver:pg123@localhost:5433/taxi_trips';
 
 const pool = new Pool({
     connectionString
